@@ -11,6 +11,14 @@ changeImage.addEventListener('click', (e) => {
 })
 
 resolution.addEventListener('click', (e) => {
+
+    if (height.value > 800 ) {
+        height.value = 800
+    } 
+    if (width.value > 1600 ) {
+        width.value = 1600
+    }
+
     catImage.style.width = width.value + "px"
     catImage.style.height = height.value + "px"
 })
