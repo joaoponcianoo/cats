@@ -56,3 +56,11 @@ input {
     background-color: #000000;
     color: #ffffff;
 }
+
+.resolution {
+    width: 200px;
+    height: 40px;  
+
+    background-color: #000000;
+    color: #ffffff;
+}
